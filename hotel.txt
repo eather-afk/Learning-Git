@@ -1,2 +1,1 @@
-kallu purwa 
-ganja purwa
+this is just a file i made to better learn how to use git 
