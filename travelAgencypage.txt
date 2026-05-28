@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>Travel Agency Page</title>
+    <meta name="description" content="A website of travel agency">
+    </head>
+    <body>
+<h1>Travel Destinations</h1>
+<p>this paragraph tell all about various travel opportunities provided by our travel agency if you are interested please contact us</p>
+<h2>Packages</h2>
+<p>Our Agency provides various packages ranging from one of the most fanciest to most affordable packages available inside the whole travel industry</p>
+  <ul>
+    <li>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a>
+    </li>
+    
+    <li>
+      
+      <a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a>
+    </li>
+  </ul>
+
+<h2>Top Itineraries</h2>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Image of the first"> </a>
+<figcaption>The first Image</figcaption> 
+      </figure>
+    
+
+    <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Image of the first"> </a>
+<figcaption>The Second Image</figcaption> 
+      </figure>
+
+      <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Image of the first"> </a>
+<figcaption>The third Image</figcaption> 
+      </figure>
+
+
+      </body>
+      </html>
