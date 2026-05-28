@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Major Web Browsers</title>
+<body>
+<h1>List of Major Web Browsers</h1>
+<p>A small list containing the names of major web browsers available in the world</p>
+<dl>
+<dt>google chrome</dt>
+<dd>this is free browser developed by google in 2008</dd>
+<dt>Mozilla firefox</dt>
+<dd>this is a fee browser developed in 2004</dd>
+
+
+</dl>
+
+</body>
+</html>
