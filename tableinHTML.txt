@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport",content="widht=device=width, initial-scale=1.0">
+</head>
+<body>
+<main>
+<table>
+<thead>
+<tr>
+<td>car</td>
+<td>bus</td>
+<td>taxi</td>
+
+</tr>
+</thead>
+<tbody>
+<tr><td>scooter</td>
+<td>bike</td>
+<td>train</td>
+</tr>
+
+</tbody>
+<tfoot>
+<tr> <td>aeroplane</td>
+<td>ship</td>
+<td>rocket</td>
+ </tr>
+
+</tfoot>
+</table>
+</main>
+</body>
+</html>
