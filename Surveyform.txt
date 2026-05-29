@@ -1,0 +1,147 @@
+<!-- ERROR: Use only one form for the whole survey project -->
+<form id="survey-form">
+
+  <fieldset>
+    <legend>Basic Information</legend>
+
+    <!-- ERROR FIXED: FCC needs id="name-label" on this label -->
+    <label id="name-label" for="name">Name:</label>
+    <input 
+      required
+      id="name"
+      type="text"
+      name="name"
+      placeholder="e.g. John Snow"
+    >
+
+    <label id="email-label" for="email">Email:</label>
+    <input 
+      id="email" 
+      type="email"
+      required
+      name="email"
+      placeholder="e.g. romromji@gmail.com"
+    >
+
+    <label id="number-label" for="number">Number:</label>
+    <input 
+      name="number"
+      id="number"
+      type="number"
+      required
+      placeholder="Enter a number"
+      min="1"
+      max="100"
+    >
+    <!-- ERROR: pattern does not work properly with type="number" -->
+    <!-- ERROR: Your earlier max="10" only allowed numbers up to 10 -->
+
+    <br><br>
+
+    <label for="dropdown">
+      <strong>Favorite</strong> Mode of Transportation
+    </label>
+
+    <select id="dropdown" name="transportation" required>
+      <!-- ERROR FIXED: options should have value attributes -->
+      <option value="">Select one</option>
+      <option value="car">CAR</option>
+      <option value="bus">BUS</option>
+      <option value="train">TRAIN</option>
+      <option value="bicycle">BICYCLE</option>
+      <option value="tram">TRAM</option>
+      <option value="others">Others</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>About You</legend>
+
+    <p>Q1. Have you ever travelled outside of your native country?</p>
+
+    <!-- ERROR FIXED: label for should match input id -->
+    <label for="option1">Yes</label>
+    <input 
+      type="radio"
+      id="option1"
+      name="travelled"
+      value="yes"
+    >
+
+    <label for="option2">No</label>
+    <input 
+      type="radio"
+      id="option2"
+      name="travelled"
+      value="no"
+    >
+
+    <br><br>
+
+    <p>Q2. Which country is your favorite?</p>
+
+    <!-- ERROR FIXED: label should use for, not duplicate id -->
+    <!-- ERROR FIXED: each checkbox should have its own value -->
+    <label for="japan">Japan</label>
+    <input 
+      type="checkbox"
+      id="japan"
+      name="favcountry"
+      value="japan"
+      checked
+    >
+
+    <label for="canada">Canada</label>
+    <input 
+      type="checkbox"
+      id="canada"
+      name="favcountry"
+      value="canada"
+    >
+
+    <label for="dubai">Dubai</label>
+    <input 
+      type="checkbox"
+      id="dubai"
+      name="favcountry"
+      value="dubai"
+    >
+
+    <label for="norway">Norway</label>
+    <input 
+      type="checkbox"
+      id="norway"
+      name="favcountry"
+      value="norway"
+    >
+
+    <label for="usa">U.S.A</label>
+    <input 
+      type="checkbox"
+      id="usa"
+      name="favcountry"
+      value="usa"
+    >
+
+    <br><br>
+
+    <div>
+      <!-- ERROR FIXED: em closing tag was wrong -->
+      <label for="comments"><em>Suggestions</em></label>
+
+      <textarea 
+        id="comments"
+        name="comments"
+        placeholder="Please provide suggestions"
+      ></textarea>
+      <!-- ERROR: textarea does not need type="text" -->
+    </div>
+  </fieldset>
+
+  <br>
+
+  <div style="text-align: center;">
+    <button id="submit" type="submit">Submit</button>
+  </div>
+
+</form>
