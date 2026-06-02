@@ -1,0 +1,99 @@
+# Event Flyer Webpage
+
+## Overview
+
+This project is a responsive Event Flyer webpage created using HTML5 and CSS3. The webpage is designed to present event information in a clean, modern, and visually appealing format while practicing important front-end development concepts.
+
+The project includes a hero section, styled headings, event details, custom list styling, responsive images, and decorative UI elements inspired by modern web design aesthetics.
+
+---
+
+## Features
+
+* Responsive webpage layout
+* Styled event hero section
+* Rounded image borders
+* Custom typography and color palette
+* Centered content layout
+* Styled unordered lists with custom markers
+* Decorative sections and spacing
+* Hover effects for interactive elements
+* Modern card-style design
+
+---
+
+## Technologies Used
+
+* HTML5
+* CSS3
+
+---
+
+## Concepts Practiced
+
+### HTML Concepts
+
+* Semantic structure
+* Sections and headings
+* Images and figure captions
+* Lists and list items
+* Anchor elements
+* Page layout organization
+
+### CSS Concepts
+
+* Width and height control
+* Margin and padding
+* Background colors
+* Border and border-radius styling
+* Flexbox alignment
+* Hover effects using pseudo-classes
+* Responsive image sizing
+* List marker customization
+* `calc()` usage
+* `inline-block` behavior
+* Text alignment and spacing
+
+---
+
+## Project Structure
+
+```txt id="evu8wo"
+project-folder/
+│
+├── index.html
+└── styles.css
+```
+
+---
+
+## Design Goals
+
+The webpage was designed with:
+
+* Soft, eye-friendly colors
+* Clean spacing and layout hierarchy
+* Simple and readable typography
+* Modern event flyer aesthetics
+* Responsive content presentation
+
+---
+
+## Learning Outcome
+
+This project helped improve understanding of:
+
+* CSS box model
+* Layout alignment
+* Flexbox behavior
+* Responsive sizing
+* Difference between margin and padding
+* Width and content sizing
+* Custom list styling techniques
+* UI styling best practices
+
+---
+
+## Author
+
+Shive Prakash
