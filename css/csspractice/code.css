@@ -1,0 +1,23 @@
+body{
+  padding: 10%;
+  font-size: 2rem;
+  font-family: sans-serif/* , monospace , cursive */;
+  
+}
+
+/* input,button{
+  font: inherit;
+} */
+
+p{
+  /* text-decoration: none;
+  text-transform: lowercase;
+  text-align: justify; */
+  /* text-indent: 2em; */
+  line-height: 1.5;
+ /*  letter-spacing: 0.1em; */
+  /* word-spacing: .1em; */
+  /* font-weight: lighter;
+  font-style: oblique; */
+
+}
